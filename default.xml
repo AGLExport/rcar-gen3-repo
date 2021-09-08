@@ -21,7 +21,7 @@
 	<project path="meta-qt6" name="meta-qt6" remote="qt" revision="refs/tags/v6.2.0-beta3" />
 
 	<!-- distro Layers -->
-	<project path="meta-basic-distro" name="meta-basic-distro" remote="aglexport" revision="820d0c7f4e382a48feb8e3b8a56f8ec76d3e8174" />
+	<project path="meta-basic-distro" name="meta-basic-distro" remote="aglexport" revision=" d0b401ce31b0700cca3dc88a91bcd33490c1efde" />
 	
 	<!-- bsp Layers -->
 	<project path="meta-renesas" name="meta-renesas" remote="renesas-rcar" revision="refs/tags/dunfell-Yocto-v5.1.0" />
