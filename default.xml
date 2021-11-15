@@ -19,7 +19,7 @@
 	<!-- function Layers -->
 	<project path="meta-containers" name="meta-containers" remote="aglexport" revision="localdev" />
 	<project path="meta-qt5" name="meta-qt5" remote="qt" revision="refs/tags/v5.15.2" />
-	<project path="meta-qt6" name="meta-qt6" remote="qt" revision="refs/tags/v6.2.0-beta3" />
+	<project path="meta-qt6" name="meta-qt6" remote="qt" revision="refs/tags/v6.2.1" />
 
 	<!-- distro Layers -->
 	<project path="meta-basic-distro" name="meta-basic-distro" remote="aglexport" revision="main" />
