@@ -25,7 +25,7 @@
 	<project path="meta-basic-distro" name="meta-basic-distro" remote="aglexport" revision="main" />
 	
 	<!-- bsp Layers -->
-	<project path="meta-renesas" name="meta-renesas" remote="renesas-rcar" revision="refs/tags/dunfell-Yocto-v5.1.0" />
+	<project path="meta-renesas" name="meta-renesas" remote="renesas-rcar" revision="refs/tags/dunfell-Yocto-v5.5.0" />
 	<project path="container-bsp" name="container-bsp" remote="aglexport" revision="localdev" />
 </manifest>
 
