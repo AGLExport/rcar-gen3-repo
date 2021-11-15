@@ -14,7 +14,7 @@
 	<project path="poky" name="poky" remote="yocto" revision="refs/tags/dunfell-23.0.11" />
 
 	<!-- Openembedded Layers -->
-	<project path="meta-openembedded" name="meta-openembedded" remote="openembedded" revision="85f8047c71047d93cf79a954142157f85079968d" />
+	<project path="meta-openembedded" name="meta-openembedded" remote="openembedded" revision="7889158dcd187546fc5e99fd81d0779cad3e8d17" />
 
 	<!-- function Layers -->
 	<project path="meta-containers" name="meta-containers" remote="aglexport" revision="localdev" />
