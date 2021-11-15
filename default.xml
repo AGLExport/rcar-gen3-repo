@@ -11,7 +11,7 @@
 	<default revision="master" />
 
 	<!-- Yocto Layers -->
-	<project path="poky" name="poky" remote="yocto" revision="refs/tags/dunfell-23.0.10" />
+	<project path="poky" name="poky" remote="yocto" revision="refs/tags/dunfell-23.0.11" />
 
 	<!-- Openembedded Layers -->
 	<project path="meta-openembedded" name="meta-openembedded" remote="openembedded" revision="85f8047c71047d93cf79a954142157f85079968d" />
