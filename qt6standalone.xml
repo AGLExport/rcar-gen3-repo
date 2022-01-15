@@ -17,15 +17,13 @@
 	<project path="meta-openembedded" name="meta-openembedded" remote="openembedded" revision="95969f0f5f4264644a5dbfb6d4fb66e2ac3a2cde" />
 
 	<!-- function Layers -->
-	<project path="meta-containers" name="meta-containers" remote="aglexport" revision="localdev" />
 	<project path="meta-qt6" name="meta-qt6" remote="qt" revision="6.2" />
 
 	<!-- distro Layers -->
-	<project path="meta-basic-distro" name="meta-basic-distro" remote="aglexport" revision="main" />
+	<project path="meta-basic-distro" name="meta-basic-distro" remote="aglexport" revision="dev" />
 	
 	<!-- bsp Layers -->
 	<project path="meta-renesas" name="meta-renesas" remote="renesas-rcar" revision="refs/tags/dunfell-Yocto-v5.5.0" />
-	<project path="meta-rcar-gen3-extra" name="meta-rcar-gen3-extra" remote="aglexport" revision="master" />
-	<project path="container-bsp" name="container-bsp" remote="aglexport" revision="localdev" />
+	<project path="meta-rcar-gen3-extra" name="meta-rcar-gen3-extra" remote="aglexport" revision="dev" />
 </manifest>
 
