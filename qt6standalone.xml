@@ -11,19 +11,19 @@
 	<default revision="master" />
 
 	<!-- Yocto Layers -->
-	<project path="poky" name="poky" remote="yocto" revision="refs/tags/dunfell-23.0.13" />
+	<project path="poky" name="poky" remote="yocto" revision="refs/tags/dunfell-23.0.14" />
 
 	<!-- Openembedded Layers -->
-	<project path="meta-openembedded" name="meta-openembedded" remote="openembedded" revision="95969f0f5f4264644a5dbfb6d4fb66e2ac3a2cde" />
+	<project path="meta-openembedded" name="meta-openembedded" remote="openembedded" revision="ec978232732edbdd875ac367b5a9c04b881f2e19" />
 
 	<!-- function Layers -->
 	<project path="meta-qt6" name="meta-qt6" remote="qt" revision="6.2" />
 
 	<!-- distro Layers -->
-	<project path="meta-basic-distro" name="meta-basic-distro" remote="aglexport" revision="dev" />
+	<project path="meta-basic-distro" name="meta-basic-distro" remote="aglexport" revision="bsp5.9-dev" />
 	
 	<!-- bsp Layers -->
-	<project path="meta-renesas" name="meta-renesas" remote="renesas-rcar" revision="refs/tags/dunfell-Yocto-v5.5.0" />
-	<project path="meta-rcar-gen3-extra" name="meta-rcar-gen3-extra" remote="aglexport" revision="dev" />
+	<project path="meta-renesas" name="meta-renesas" remote="renesas-rcar" revision="refs/tags/Renesas-Yocto-v5.9.0" />
+	<project path="meta-rcar-gen3-extra" name="meta-rcar-gen3-extra" remote="aglexport" revision="bsp5.9-dev" />
 </manifest>
 
