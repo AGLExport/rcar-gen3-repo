@@ -14,9 +14,10 @@
 	<project path="poky" name="poky" remote="yocto" revision="refs/tags/dunfell-23.0.14" />
 
 	<!-- Openembedded Layers -->
-	<project path="meta-openembedded" name="meta-openembedded" remote="openembedded" revision="ec978232732edbdd875ac367b5a9c04b881f2e19" />
+	<project path="meta-openembedded" name="meta-openembedded" remote="openembedded" revision="4e7d34df0fc2751ac07d3f425f6480dcf5edf714" />
 
 	<!-- function Layers -->
+	<project path="meta-containers" name="meta-containers" remote="aglexport" revision="localdev" />
 	<project path="meta-qt6" name="meta-qt6" remote="qt" revision="6.2" />
 
 	<!-- distro Layers -->
