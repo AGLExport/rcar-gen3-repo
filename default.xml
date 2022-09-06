@@ -11,7 +11,7 @@
 	<default revision="master" />
 
 	<!-- Yocto Layers -->
-	<project path="poky" name="poky" remote="yocto" revision="refs/tags/dunfell-23.0.13" />
+	<project path="poky" name="poky" remote="aglexport" revision="dunfell-local" />
 
 	<!-- Openembedded Layers -->
 	<project path="meta-openembedded" name="meta-openembedded" remote="openembedded" revision="95969f0f5f4264644a5dbfb6d4fb66e2ac3a2cde" />
@@ -24,7 +24,7 @@
 	<project path="meta-basic-distro" name="meta-basic-distro" remote="aglexport" revision="main" />
 	
 	<!-- bsp Layers -->
-	<project path="meta-renesas" name="meta-renesas" remote="renesas-rcar" revision="refs/tags/dunfell-Yocto-v5.5.0" />
+	<project path="meta-renesas" name="meta-renesas" remote="aglexport" revision="v5.9.2-sr" />
 	<project path="meta-rcar-gen3-extra" name="meta-rcar-gen3-extra" remote="aglexport" revision="master" />
 	<project path="container-bsp" name="container-bsp" remote="aglexport" revision="localdev" />
 </manifest>
