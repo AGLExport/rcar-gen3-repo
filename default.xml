@@ -11,7 +11,7 @@
 	<default revision="master" />
 
 	<!-- Yocto Layers -->
-	<project path="poky" name="poky" remote="aglexport" revision="dunfell-local" />
+	<project path="poky" name="poky" remote="aglexport" revision="dunfell-erofs" />
 
 	<!-- Openembedded Layers -->
 	<project path="meta-openembedded" name="meta-openembedded" remote="openembedded" revision="95969f0f5f4264644a5dbfb6d4fb66e2ac3a2cde" />
